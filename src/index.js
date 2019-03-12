@@ -1,5 +1,5 @@
 import * as OfflinePluginRuntime from "offline-plugin/runtime";
-import "./index.scss";
+import "./css/index.scss";
 
 window.addEventListener("load", () => {
   console.log("Event: Load");
