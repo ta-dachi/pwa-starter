@@ -10,7 +10,7 @@ A minimal starter kit for your PWA (Progressive Web App)
   - Service Workers through [offline-plugin](https://github.com/NekR/offline-plugin)
   - Manifest.json through [webpack-pwa-manifest](https://github.com/arthurbergmz/webpack-pwa-manifest)
 - Babel
-  - Supports for ES6+
+  - Support for ES6+
 
 ## Install and Run
 
