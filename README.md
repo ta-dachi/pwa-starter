@@ -4,12 +4,12 @@ A minimal starter kit for your PWA (Progressive Web App)
 
 ## Whats in it?
 
-- Webpack
-- scss
-- PWA
+- Webpack v4
+- SCSS
+- PWA (Progress Web App)
   - Service Workers through [offline-plugin](https://github.com/NekR/offline-plugin)
   - Manifest.json through [webpack-pwa-manifest](https://github.com/arthurbergmz/webpack-pwa-manifest)
-- Babel
+- Babel v7
   - Support for ES6+
 
 ## Install and Run
@@ -26,7 +26,6 @@ A minimal starter kit for your PWA (Progressive Web App)
 .
 ├── /dist/                      # The output (via Webpack)
 ├── /src/                       # Source files
-│   ├── /css/                   # CSS files
 │   ├── /assets/                # Image, fonts, and other asset files
 │   ├── /css/                   # SCSS/CSS files
 ├── package.json                # List of project dependencies
