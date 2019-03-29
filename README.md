@@ -23,7 +23,6 @@ A minimal starter kit for your PWA (Progressive Web App)
 ## Directory Layout
 
 ```bash
-.
 ├── /dist/                      # The output (via Webpack)
 ├── /src/                       # Source files
 │   ├── /assets/                # Image, fonts, and other asset files
