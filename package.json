@@ -2,9 +2,7 @@
   "name": "pwa-starter",
   "version": "0.1.0",
   "description": "A PWA starter.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --env dev",
     "build": "webpack --env prod --progress --colors"
   },

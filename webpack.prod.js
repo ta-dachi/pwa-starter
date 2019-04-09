@@ -65,7 +65,8 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
-      title: "AniList"
+      filename: "index.html",
+      lang: "en"
     }),
     new CleanWebpackPlugin(),
     new WebpackPwaManifest({
