@@ -1,8 +1,8 @@
 # pwa-starter
 
-A minimal starter kit for your PWA (Progressive Web App)
+A minimal starter kit for your PWA (Progressive Web App).
 
-## Whats in it?
+## What's in it?
 
 - Webpack v4
 - SCSS
