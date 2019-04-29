@@ -1,14 +1,17 @@
 import * as OfflinePluginRuntime from "offline-plugin/runtime";
 import "./css/index.scss";
 
+const ONLINE = `<div style="color:green">PWA Online!</div>`;
+const OFFLINE = `<div style="color:yellow">PWA Offline</div>`;
+
 window.addEventListener("load", () => {
   console.log("Event: Load");
 
   function updateOnlineStatus() {
     if (navigator.onLine) {
-      document.getElementById("status").innerHTML = "Online!";
+      document.getElementById("status").innerHTML = ONLINE;
     } else {
-      document.getElementById("status").innerHTML = "Offline";
+      document.getElementById("status").innerHTML = OFFLINE;
     }
   }
 
@@ -16,14 +19,16 @@ window.addEventListener("load", () => {
     updateOnlineStatus();
   }, 500);
 
-  window.addEventListener("offline", () => {
-    console.log("Event: Offline");
-    document.getElementById("status").innerHTML = "Offline";
-  });
-
+  // Reconnect online event
   window.addEventListener("online", () => {
     console.log("Event: Online");
-    document.getElementById("status").innerHTML = "Online!";
+    document.getElementById("status").innerHTML = ONLINE;
+  });
+
+  // Lose connection event
+  window.addEventListener("offline", () => {
+    console.log("Event: Offline");
+    document.getElementById("status").innerHTML = OFFLINE;
   });
 });
 
