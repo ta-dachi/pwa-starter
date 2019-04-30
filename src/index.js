@@ -2,7 +2,7 @@ import * as OfflinePluginRuntime from "offline-plugin/runtime";
 import "./css/index.scss";
 
 const ONLINE = `<div style="color:green">PWA Online!</div>`;
-const OFFLINE = `<div style="color:yellow">PWA Offline</div>`;
+const OFFLINE = `<div style="color:GoldenRod">PWA Offline</div>`;
 
 window.addEventListener("load", () => {
   console.log("Event: Load");
